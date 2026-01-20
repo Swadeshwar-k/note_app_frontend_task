@@ -45,21 +45,21 @@ The application allows users to securely register, login, and manage personal no
 
 ##  Project Structure
 
-frontend/
-├── src/
-│ ├── pages/
-│ ├── components/
-│ ├── context/
-│ ├── services/
-│ ├── routes/
-│ └── styles/
+## frontend/
+- src/
+- pages/
+- components/
+- context/
+-  services/
+-  Routes/
+-  syles/
 
-backend/
-├── controllers/
-├── routes/
-├── middleware/
-├── config/
-└── server.js
+## backend/
+- controllers/
+- routes/
+-  middleware/
+-   config/
+-   server.js
 ##  Setup Instructions
 - git clone  https://github.com/Swadeshwar-k/note_app_frontend_task.git
 - cd note-app-frontend-task
