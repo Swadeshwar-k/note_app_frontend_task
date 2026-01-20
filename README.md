@@ -82,7 +82,9 @@ npx nodemon server.js
 
 ## Frontend Setup
 cd frontend\Frontend_task
+
 npm install
+
 npm run dev
 
 ## open 
