@@ -46,19 +46,19 @@ The application allows users to securely register, login, and manage personal no
 ##  Project Structure
 
 frontend/
-├── src/
-│ ├── pages/
-│ ├── components/
-│ ├── context/
-│ ├── services/
-│ ├── routes/
-│ └── styles/
+├── src
+│ ├── pages
+│ ├── components
+│ ├── context
+│ ├── services
+│ ├── routes
+│ └── styles
 
-backend/
-├── controllers/
-├── routes/
-├── middleware/
-├── config/
+backend
+├── controllers
+├── routes
+├── middleware
+├── config
 └── server.js
 
 ##  Setup Instructions
@@ -81,7 +81,7 @@ JWT_SECRET=your_jwt_secret
 npx nodemon server.js
 
 ## Frontend Setup
-cd frontend
+cd frontend\Frontend_task
 npm install
 npm run dev
 
