@@ -1,0 +1,15 @@
+import "../styles/footer.css";
+
+const Footer = () => {
+  return (
+
+    <footer className="footer">
+      <p>
+        © {new Date().getFullYear()} Notes App. Built with React, Node.js & MySQL.
+      </p>
+      
+    </footer>
+  );
+};
+
+export default Footer;

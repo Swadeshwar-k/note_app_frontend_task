@@ -1,0 +1,182 @@
+.dashboard {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.dashboard-header button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.note-form {
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+
+.note-form input,
+.note-form textarea {
+  width: 100%;
+  max-width: 800px;
+  padding: 14px 16px;
+  margin: 12px auto;
+  display: block;
+
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background-color: #ffffff;
+
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+
+.note-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.note-input:focus,
+.note-textarea:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
+}
+
+
+.note-input::placeholder,
+.note-textarea::placeholder {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+
+.note-list {
+  list-style: none;
+  padding: 0;
+}
+
+.note-card {
+
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.note-card h4 {
+  margin-bottom: 5px;
+}
+
+.note-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.note-actions button {
+  cursor: pointer;
+}
+
+
+
+
+.primary-btn {
+  margin-top: 10px;
+  padding: 10px 22px;
+
+  background-color: #0d6efd;
+  color: #fff;
+
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.primary-btn:hover {
+  background-color: #0b5ed7;
+}
+
+
+
+@media (max-width: 768px) {
+
+  .dashboard {
+    padding: 15px;
+  }
+
+  .dashboard-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .dashboard-header h2 {
+    font-size: 18px;
+  }
+
+  .dashboard-header button {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .note-form {
+    padding: 12px;
+  }
+
+  .note-form input,
+  .note-form textarea {
+    font-size: 14px;
+    padding: 12px 14px;
+  }
+
+  .note-actions {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .note-actions button {
+    flex: 1;
+    font-size: 13px;
+    padding: 8px;
+  }
+}
+
+
+@media (max-width: 480px) {
+
+  .dashboard {
+    padding: 12px;
+  }
+
+  .note-card {
+    padding: 12px;
+  }
+
+  .note-card h4 {
+    font-size: 15px;
+  }
+
+  .note-card p {
+    font-size: 13px;
+  }
+
+  .primary-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+  }
+}

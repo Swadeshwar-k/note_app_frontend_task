@@ -1,0 +1,171 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #007bff;
+  color: white;
+}
+
+
+
+.logo {
+  font-size: 22px;
+}
+
+.nav-links a {
+  margin-left: 15px;
+  color: white;
+
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 28px;
+
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 15px;
+  max-width: 600px;
+
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.primary-btn {
+  padding: 12px 20px;
+
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.primary-btn:hover{
+
+  background-color: #032a64;
+  border: 1px solid #0d6efd;
+
+
+  color: white;
+  opacity: 0.9;
+}
+
+
+.features {
+  display: flex;
+
+  justify-content: center;
+  gap: 54px;
+  padding: 0px 0px;
+}
+
+.feature-card {
+  background-color: #fff;
+  padding: 30px;
+
+  width: 280px;
+  text-align: center;
+  border-radius: 10px;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.feature-card h3 {
+  font-size: 15px;
+  font-weight: 600;
+
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 14px;
+
+  color: #475569;
+}
+
+
+@media (max-width: 768px) {
+
+ 
+  .navbar {
+    flex-direction: row ;
+    align-items: flex-start;
+    padding: 12px 20px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .nav-links {
+    margin-top: 10px;
+    display: flex;
+    gap: 12px;
+  }
+
+  .nav-links a {
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+ 
+  .hero {
+    padding: 50px 16px;
+  }
+
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+ 
+  .features {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .feature-card {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+
+@media (max-width: 480px) {
+
+  .hero h1 {
+    font-size: 20px;
+  }
+
+  .primary-btn {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .feature-card {
+    padding: 20px;
+  }
+
+  .feature-card h3 {
+    font-size: 14px;
+  }
+
+  .feature-card p {
+    font-size: 13px;
+  }
+}
