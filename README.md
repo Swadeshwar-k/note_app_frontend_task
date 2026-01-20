@@ -62,49 +62,49 @@ backend
 └── server.js
 
 ##  Setup Instructions
-git clone  https://github.com/Swadeshwar-k/note_app_frontend_task.git
-cd note-app-frontend-task
+-git clone  https://github.com/Swadeshwar-k/note_app_frontend_task.git
+-cd note-app-frontend-task
 
 ## Backend Setup
-cd backend
-npm install
+-cd backend
+-npm install
 
 ## Create .env file:
-PORT=5000
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=your_mysql_password
-DB_NAME=frontend_task
-JWT_SECRET=your_jwt_secret
+-PORT=5000
+-DB_HOST=localhost
+-DB_USER=root
+-DB_PASSWORD=your_mysql_password
+-DB_NAME=frontend_task
+-JWT_SECRET=your_jwt_secret
 
 ## Start Backend
-npx nodemon server.js
+-npx nodemon server.js
 
 ## Frontend Setup
-cd frontend\Frontend_task
+-cd frontend\Frontend_task
 
-npm install
+-npm install
 
-npm run dev
+-npm run dev
 
 ## open 
-http://localhost:5000
+-http://localhost:5000
 
 ## API Overview
 ## Auth
 
-POST /api/auth/register
+-POST /api/auth/register
 
-POST /api/auth/login
+-POST /api/auth/login
 
 ## Notes
 
-GET /api/tasks
+-GET /api/tasks
 
-POST /api/tasks
+-POST /api/tasks
 
-PUT /api/tasks/:id
+-PUT /api/tasks/:id
 
-DELETE /api/tasks/:id
+-DELETE /api/tasks/:id
 
 (All protected with JWT
