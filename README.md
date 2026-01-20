@@ -1,4 +1,4 @@
-# 📝 Notes App – Full Stack Web Application
+#  Notes App – Full Stack Web Application
 
 A full stack Notes application built as part of a **Frontend Developer Intern Assignment**.
 
@@ -6,26 +6,26 @@ The application allows users to securely register, login, and manage personal no
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 🔐 Authentication
+###  Authentication
 - User registration & login
 - JWT-based authentication
 - Protected routes
 
-### 📝 Notes Management
+###  Notes Management
 - Create notes with title & description
 - Edit and delete notes
 - Search notes by title or description
 
-### 🎨 UI
+###  UI
 - Landing page with navbar & footer
 - Responsive design
 - Clean and simple CSS
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React (Vite)
@@ -43,7 +43,7 @@ The application allows users to securely register, login, and manage personal no
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 frontend/
 ├── src/
@@ -61,15 +61,15 @@ backend/
 ├── config/
 └── server.js
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 git clone  https://github.com/Swadeshwar-k/note_app_frontend_task.git
 cd note-app-frontend-task
 
-##Backend Setup
+## Backend Setup
 cd backend
 npm install
 
-##Create .env file:
+## Create .env file:
 PORT=5000
 DB_HOST=localhost
 DB_USER=root
@@ -80,22 +80,22 @@ JWT_SECRET=your_jwt_secret
 ## Start Backend
 npx nodemon server.js
 
-##Frontend Setup
+## Frontend Setup
 cd frontend
 npm install
 npm run dev
 
-##open 
+## open 
 http://localhost:5000
 
-##API Overview
-##Auth
+## API Overview
+## Auth
 
 POST /api/auth/register
 
 POST /api/auth/login
 
-##Notes
+## Notes
 
 GET /api/tasks
 
